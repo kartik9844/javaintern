@@ -1,0 +1,76 @@
+Database connectivite
+
+to work with database java introduced a new package by name java.sql this package
+contents 4 sub classes c
+1.connection
+2.statement
+3.driver manager
+4. resultset
+
+1. connection class
+this class is used to establish the connection between java and database this object stores 
+the address of database. 
+
+2.Statement
+its used to store and excute sql statement's to excute a sql statement we ahve 3 mehtods
+1.excute
+1. excuteupdate():
+2. excuteQuery
+3.
+
+1.excute
+to excute any type of sql statements 
+
+2. excuteupdate():
+excute update its used to excute updateable statements like insert delete and update
+
+2. excuteQuery
+its used to excute the queryable statements like select when we run this method it will retrive the data from database  and stroe in result side 
+
+4.resultset
+its used to store outof a query and we can retrive the data by using RS.next method which will extrat the data row by row we can retrive colum data by using get methods 
+
+
+to work with jsp we need to install following softwares 
+1. JDK 1.8
+2. tomcat 9.0
+3. wamp  for database creation 
+4. msql connectormy
+mysql connector will be placed in the following directory c: /programfiles/Apachesoftwarefoundation/tomacte
+in this copy the mysql connector i following folders bin, conf , and lib 
+
+2 option we can download the latest version of XAmpp in which tomate is inbuilt in the same folders mysql connector will be placed in Xampp tomacte folder
+writing and exuting jsp programs 
+1. create a folder in c://programfiles/Apachesoftwarefoundation/tomacte/webapps/root
+create your folder and right cick on the folder select properties click on security tab ,click on edite button it opens a new window select user account 
+below that the it will show the permission click on full control first option the click on ok
+
+note: if your folder is not opening in sercurty window their is option by advance click on it and enable inherentance 
+
+
+writing and excuting JSP programs we can write JSP program in any of the editors and the file will be saved with a doint jsp as a extstion files muct be stored in root out folder 
+jsp is a script based programing language everything is written in between <%  %> following are the some the main scripting tags of jsp 
+1. script <% %>
+2. declaration use  to declare global variables or public varibles 
+3. directive <%@ %> its used to call packages 
+4. <%= %> its used to display the output it a replacement for out.println
+
+
+builtin object to make jsp simple and fast all the objet are ready made and fast to use and excute following are the some of the inbuild objects of jsp 
+1.request: this object is used to read the data from HTML pages with help of get paramater method 
+2. out its a object of print writer class its used to display the output wiht a help of println method
+3.respones : its used to send the data out 
+
+write a jsp programm to display hello 
+
+database connectivition
+
+Tables
+Staff id,name,dept,email
+BOOK isbn no, book title, book name, author
+product detials productid, productname, category, price
+cityinfo cityid, city name, state , education support, popoular for
+
+
+
+REAding data form data base
