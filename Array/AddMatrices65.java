@@ -4,8 +4,8 @@ public class AddMatrices65 {
         int[][] matrix1 = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
         int[][] matrix2 = { {9, 8, 7}, {6, 5, 4}, {3, 2, 1} };
 
-        int rows = matrix1.length;
-        int cols = matrix1[0].length;
+        int rows = matrix1.length; //3
+        int cols = matrix1[0].length;//0s
 
         int[][] sumMatrix = new int[rows][cols];
 
