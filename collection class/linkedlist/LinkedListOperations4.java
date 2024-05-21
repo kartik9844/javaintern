@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 import java.util.Iterator;
-import java.util.ListIterator;
 
 public class LinkedListOperations4 {
     public static void main(String[] args) {
@@ -17,11 +16,6 @@ public class LinkedListOperations4 {
             System.out.println(element);
         }
 
-        // Using a descending iterator
-        System.out.println("Using a descending iterator:");
-        Iterator<String> descendingIterator = linkedList.descendingIterator();
-        while (descendingIterator.hasNext()) {
-            System.out.println(descendingIterator.next());
-        }
+       
     }
 }

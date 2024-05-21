@@ -7,14 +7,14 @@ public class BasicMathOperations
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
 
-        double sum = Math.addExact((int) num1, (int) num2);
-        double difference = Math.subtractExact((int) num1, (int) num2);
-        double product = Math.multiplyExact((int) num1, (int) num2);
+        double sum = Math.addExact(num1, num2);
+        double difference = Math.subtractExact(num1, num2);
+        double product = Math.multiplyExact(num1, num2);
         double quotient = num1 / num2;
 
         System.out.println("Sum: " + sum);
